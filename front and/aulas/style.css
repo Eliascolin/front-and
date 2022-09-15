@@ -1,0 +1,16 @@
+header {background-color: blue;}
+header {display: flex;justify-content: space-between;}
+ .del1 {color: aliceblue;}
+ .del2 {color: aliceblue; margin: 12px;} 
+
+ .todo {width: 250px;height: 270px ;margin-top: 100px;}
+ .tex {text-align: center;margin:0px 26px;}
+ body {background-image: url(https://tudosobrehospedagemdesites.com.br/site/wp-content/uploads/2013/10/o-que-e-html-destaque-1.png);background-repeat: no-repeat;}
+ img {width: 100%;height: 100%}
+section {display: flex;flex-wrap: wrap ;gap: 50px;}
+
+
+
+
+ 
+ 
