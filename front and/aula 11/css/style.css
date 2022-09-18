@@ -6,6 +6,7 @@
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
    list-style: none;
+   
   }
 
 
@@ -76,12 +77,11 @@ font-size: 40px;
 line-height: 23px;
   
   }
-   span {
-   color: #FFFFFF;
-   font-weight: 700;
-font-size: 40px;
-line-height: 23px;
-  }
+   
+  
+ .Dog {
+  color: #FFFFFF;
+ }
 
   header ul li {
   color: #FFFFFF;
@@ -89,6 +89,7 @@ line-height: 23px;
   font-size: 20px;
   line-height: 15px;
 }
+
 
 .section-img
 {
@@ -107,9 +108,20 @@ height: 600px;
   
 }
 
+@media (max-width:677px) {
+  .section-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+
 .div-mae{margin-right: 12px;
   text-align: center;
 }
+
+
 
 .section-img .prazer{
   background-color:#FFFFFF;
@@ -256,6 +268,7 @@ height: 40px;
  margin-top: 41px ;
  margin-bottom: 41px;
  gap: 20px;
+ 
 }
 
 .botoes button{
@@ -304,6 +317,15 @@ line-height: 23px;
 color: #FFFFFF;
 top: 0px;
  }
+ @media (max-width:708px) {
+  footer .div-footer {
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    padding-bottom: 0,3rem;
+  }
+
+}
 
  .div-footer .informe {display: flex;}
 
@@ -349,6 +371,19 @@ display: flex;
 justify-content: space-between;
 }
 
+@media (max-width:708px) {
+  footer .informaçao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem ;
+    
+   
+
+  }
+
+}
 .logo-footer{
   display: flex;
 align-items: center;  
@@ -371,6 +406,8 @@ line-height: 23px;
 footer .card-contatos{
   display: flex;
 }
+
+
 
 footer h3 {
   font-family: 'Roboto';
